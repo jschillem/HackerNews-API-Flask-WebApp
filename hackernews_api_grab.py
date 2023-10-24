@@ -31,6 +31,7 @@ with Session() as session:
                         descendants=post.get('descendants', None),
                         score=int(post.get('score', None)),
                         text=post.get('text', None),
+                        title=post.get('title', None),
                         time=int(post.get('time', None)),
                         type=post['type'],
                         url=post.get('url', None)

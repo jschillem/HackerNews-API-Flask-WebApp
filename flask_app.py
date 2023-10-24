@@ -16,6 +16,7 @@ class NewsItem(db.Model):
     descendants = db.Column(db.Integer)
     score = db.Column(db.Integer)
     text = db.Column(db.Text)
+    title = db.Column(db.String)
     time = db.Column(db.Integer)
     type = db.Column(db.String)
     url = db.Column(db.String)
