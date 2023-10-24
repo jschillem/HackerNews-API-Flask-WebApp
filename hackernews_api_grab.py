@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from flask_app import NewsItem, app
+from app import NewsItem, app
 import requests
 import time
 
