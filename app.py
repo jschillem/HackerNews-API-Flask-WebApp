@@ -60,6 +60,9 @@ def NewsFeed():
         if item.url is not None:
             item_dict['url'] = item.url
 
+        if item.title is not None:
+            item.dict['title'] = item.title
+
         newsFeed.append(item_dict)
 
     return jsonify(newsFeed)
