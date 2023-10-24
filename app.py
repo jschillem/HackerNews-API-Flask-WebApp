@@ -61,7 +61,7 @@ def NewsFeed():
             item_dict['url'] = item.url
 
         if item.title is not None:
-            item.dict['title'] = item.title
+            item_dict['title'] = item.title
 
         newsFeed.append(item_dict)
 
